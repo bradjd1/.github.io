@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+.languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    background: rgb(237, 245, 232)
+}
+.new {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    background: rgb(247, 245, 232);
+    margin-bottom: 30px;
+}
+.green {
+    color: green;
+}
+.topnav {
+    text-align: center;
+    margin-bottom: 25px;
+}
+body {
+    margin: 30px;
+}
+.credit {
+    font-size: smaller;
+    margin-top: 25px;
+}
