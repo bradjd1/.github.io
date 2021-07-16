@@ -5,13 +5,16 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-between;
-    background: rgb(237, 245, 232)
+    background: rgb(247, 236, 165);
 }
 .new {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-    background: rgb(247, 245, 232);
+    background: rgb(247, 236, 165);
     margin-bottom: 30px;
+}
+.card-title {
+    background: rgb(247, 236, 165);
 }
 .green {
     color: green;
@@ -22,8 +25,26 @@ h1 {
 }
 body {
     margin: 30px;
+    border-style: solid;
 }
 .credit {
     font-size: smaller;
     margin-top: 25px;
+}
+
+main {
+    margin: 0 25px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    background: rgb(231, 250, 231)
+}
+.smallfont {
+    font-size: 75%;
+    color: red;
+}
+.skills {
+    background: rgb(247, 236, 165)
 }
